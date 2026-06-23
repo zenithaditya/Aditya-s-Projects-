@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Design Studio Architect</title>
+    <meta name="description" content="View the portfolio and architectural gallery of Design Studio Architect in Lucknow.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Navigation -->
+    <header class="header scrolled" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo text-charcoal" style="color: var(--color-charcoal);">
+                <span class="logo-text">Design Studio<br>Architect</span>
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#home" class="nav-link text-charcoal">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link text-charcoal">About Studio</a></li>
+                    <li><a href="index.html#services" class="nav-link text-charcoal">Services</a></li>
+                    <li><a href="index.html#projects" class="nav-link text-charcoal">Projects</a></li>
+                    <li><a href="gallery.html" class="nav-link text-charcoal active">Gallery</a></li>
+                    <li><a href="index.html#contact" class="nav-link text-charcoal">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="index.html#contact" class="btn btn-primary d-none-sm">Get Consultation</a>
+
+            <div class="mobile-menu-toggle text-charcoal" style="color: var(--color-charcoal);">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav-overlay">
+        <div class="mobile-nav-close"><i class="fas fa-times"></i></div>
+        <ul class="mobile-nav-list">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Studio</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Gallery Header -->
+    <section class="page-header section-padding" style="margin-top: 80px; padding-bottom: 50px;">
+        <div class="container text-center reveal-up">
+            <span class="section-subtitle">Our Work</span>
+            <h1 class="section-title">Project Gallery</h1>
+            <p class="section-description mx-auto max-w-700">Explore our diverse portfolio of modern residential, commercial, and interior design projects.</p>
+        </div>
+    </section>
+
+    <!-- Masonry Gallery -->
+    <section class="gallery-section section-padding pt-0" id="portfolio">
+        <div class="container container-large">
+            
+            <!-- Gallery Filters -->
+            <div class="gallery-filters reveal-up text-center mb-5">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential Design</button>
+                <button class="filter-btn" data-filter="modern">Modern Houses</button>
+                <button class="filter-btn" data-filter="interior">Interior Concepts</button>
+                <button class="filter-btn" data-filter="architecture">Architecture Projects</button>
+            </div>
+
+            <div class="masonry-grid" id="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="masonry-item reveal-up" data-category="architecture">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo24Rk6x70nQcgkhYuhhoonx4sF4wvqoZcnzRin2SzCzMsm4PfU39mN_GAHl5mizVOQY1d_oLrzrHvLFPlBJnVggMpD8yPt8VYWYpGinGN6m8phG1Y0Tnp-Li7s0Dv31kv5WYH1=s1360-w1360-h1020-rw" alt="Architecture Project 1" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Architecture Projects</span>
+                            <h3 class="overlay-title">Urban Complex</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.1s;" data-category="modern">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweppa21bsdXai9du5gvnUmZlH4eAVSHFj2lNMh6tEBYb8d4wFONkLB-eRgfTt_sf4zFHkdFB1WDZI6IY7-2Us8PgwESpIG-R84cdyUxdHfHnu7SQEtrA_lh0K7wH23mx0jfyG7k=s1360-w1360-h1020-rw" alt="Architecture Project 2" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Modern Houses</span>
+                            <h3 class="overlay-title">Modern Villa</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.2s;" data-category="interior">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo_vPYZRj2C-YNWFq_7vE6rqTTOnrSxTEBgmmmiR5i-qgBREH-vy1WLfBZldG-gO-Orau3YCNQPW2bn_W6pGCFY28FDPtzdxPZf2aRiF7gJT3j1bRh1IYjcEIVC_0p7HZuqc61m=s1360-w1360-h1020-rw" alt="Architecture Project 3" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Interior Concepts</span>
+                            <h3 class="overlay-title">Luxury Living Space</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.3s;" data-category="residential">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6PB8mBWszdI_VSP5Xqd1jZIn5N25WGdX_narFIGKs8J0TfdL2uK0ukEbQMhLzfOnHr7JEKlO80atbm4CPUOQOW3LgYHZdHAhNr6Rlv_3IXGH4IG8Hq8ginnoq1Ib15Q1LhCZG=s1360-w1360-h1020-rw" alt="Architecture Project 4" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Residential Design</span>
+                            <h3 class="overlay-title">Suburban Residence</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="masonry-item reveal-up" data-category="architecture">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNTmxdYmG7bnCPyN_TgU8OHsi9fqE4q-U9qANaW=s1360-w1360-h1020-rw" alt="Architecture Project 5" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Architecture Projects</span>
+                            <h3 class="overlay-title">Commercial Tower</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 6 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.1s;" data-category="modern">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOzAornul1o_AtZ9cfjvqrsXY0c-5edRmOXFWWB=s1360-w1360-h1020-rw" alt="Architecture Project 6" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Modern Houses</span>
+                            <h3 class="overlay-title">Minimalist Retreat</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 7 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.2s;" data-category="interior">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNFJfbfIc8t6phipnn5p_EdPgfDi5nPJIKoBokD=s1360-w1360-h1020-rw" alt="Architecture Project 7" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Interior Concepts</span>
+                            <h3 class="overlay-title">Bespoke Interiors</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 8 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.3s;" data-category="residential">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN0Q3XH__J7lQbEQSTBZqd30tqcqaNu0zdQHnuE=s1360-w1360-h1020-rw" alt="Architecture Project 8" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Residential Design</span>
+                            <h3 class="overlay-title">Family Home</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 9 -->
+                <div class="masonry-item reveal-up" data-category="modern">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN8VnUzTdE1h0nNn2MhWZZPkOIhNsaAr4XKQeNr=s1360-w1360-h1020-rw" alt="Architecture Project 9" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Modern Houses</span>
+                            <h3 class="overlay-title">Contemporary Design</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 10 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.1s;" data-category="interior">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOGbEYfDIDcDyb4nIaWy7rfe9uMX-XgcXiQjU3M=s1360-w1360-h1020-rw" alt="Architecture Project 10" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Interior Concepts</span>
+                            <h3 class="overlay-title">Elegant Concept</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 11 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.2s;" data-category="residential">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipO_YzlT7N1ZPUIbtih_sXIZmWihHKSMoiXlHvw8=s1360-w1360-h1020-rw" alt="Architecture Project 11" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Residential Design</span>
+                            <h3 class="overlay-title">Estate Planning</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 12 -->
+                <div class="masonry-item reveal-up" style="transition-delay: 0.3s;" data-category="architecture">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMHWjgm-ttvyAfdeMD1j3aJJCCIEieR9vaVTNR1=s1360-w1360-h1020-rw" alt="Architecture Project 12" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay glass-overlay">
+                        <div class="overlay-content">
+                            <span class="overlay-category">Architecture Projects</span>
+                            <h3 class="overlay-title">Structural Elegance</h3>
+                            <div class="overlay-icon-wrap"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Project View">
+        <button class="lightbox-nav lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-charcoal text-white mt-5">
+        <div class="container top-footer">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Design Studio<br>Architect</h3>
+                    <p class="footer-desc">Premium architectural design studio creating innovative building designs and interior concepts in Lucknow, UP.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About Studio</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Lucknow, Uttar Pradesh</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 XXXXX XXXXX</li>
+                        <li><i class="fas fa-envelope"></i> hello@designstudioarchitect.com</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer text-center">
+            <p>&copy; 2026 Design Studio Architect. All Rights Reserved. Luxury Website Design.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
